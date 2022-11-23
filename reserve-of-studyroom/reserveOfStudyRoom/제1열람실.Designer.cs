@@ -66,22 +66,25 @@ namespace reserveOfStudyRoom
             this.label10 = new System.Windows.Forms.Label();
             this.button47 = new System.Windows.Forms.Button();
             this.button48 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(351, 43);
+            this.label1.Location = new System.Drawing.Point(173, 110);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 15);
+            this.label1.Size = new System.Drawing.Size(75, 15);
             this.label1.TabIndex = 153;
-            this.label1.Text = "열람실";
+            this.label1.Text = "제1열람실";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 8.25F);
-            this.label8.Location = new System.Drawing.Point(168, 391);
+            this.label8.Location = new System.Drawing.Point(498, 308);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(18, 16);
             this.label8.TabIndex = 152;
@@ -91,7 +94,7 @@ namespace reserveOfStudyRoom
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 8.25F);
-            this.label7.Location = new System.Drawing.Point(168, 301);
+            this.label7.Location = new System.Drawing.Point(498, 218);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(18, 16);
             this.label7.TabIndex = 151;
@@ -101,7 +104,7 @@ namespace reserveOfStudyRoom
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 8.25F);
-            this.label6.Location = new System.Drawing.Point(168, 212);
+            this.label6.Location = new System.Drawing.Point(13, 309);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(17, 16);
             this.label6.TabIndex = 150;
@@ -111,7 +114,7 @@ namespace reserveOfStudyRoom
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 8.25F);
-            this.label5.Location = new System.Drawing.Point(168, 121);
+            this.label5.Location = new System.Drawing.Point(13, 218);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(17, 16);
             this.label5.TabIndex = 149;
@@ -120,7 +123,7 @@ namespace reserveOfStudyRoom
             // button22
             // 
             this.button22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button22.Location = new System.Drawing.Point(536, 375);
+            this.button22.Location = new System.Drawing.Point(866, 292);
             this.button22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(39, 49);
@@ -132,7 +135,7 @@ namespace reserveOfStudyRoom
             // button23
             // 
             this.button23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button23.Location = new System.Drawing.Point(480, 375);
+            this.button23.Location = new System.Drawing.Point(810, 292);
             this.button23.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(39, 49);
@@ -144,7 +147,7 @@ namespace reserveOfStudyRoom
             // button24
             // 
             this.button24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button24.Location = new System.Drawing.Point(422, 375);
+            this.button24.Location = new System.Drawing.Point(752, 292);
             this.button24.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(39, 49);
@@ -156,7 +159,7 @@ namespace reserveOfStudyRoom
             // button25
             // 
             this.button25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button25.Location = new System.Drawing.Point(364, 375);
+            this.button25.Location = new System.Drawing.Point(694, 292);
             this.button25.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(39, 49);
@@ -168,7 +171,7 @@ namespace reserveOfStudyRoom
             // button26
             // 
             this.button26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button26.Location = new System.Drawing.Point(306, 375);
+            this.button26.Location = new System.Drawing.Point(636, 292);
             this.button26.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(39, 49);
@@ -180,7 +183,7 @@ namespace reserveOfStudyRoom
             // button27
             // 
             this.button27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button27.Location = new System.Drawing.Point(248, 375);
+            this.button27.Location = new System.Drawing.Point(578, 292);
             this.button27.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(39, 49);
@@ -192,7 +195,7 @@ namespace reserveOfStudyRoom
             // button28
             // 
             this.button28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button28.Location = new System.Drawing.Point(192, 375);
+            this.button28.Location = new System.Drawing.Point(522, 292);
             this.button28.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(39, 49);
@@ -204,7 +207,7 @@ namespace reserveOfStudyRoom
             // button15
             // 
             this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button15.Location = new System.Drawing.Point(536, 285);
+            this.button15.Location = new System.Drawing.Point(866, 201);
             this.button15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(39, 49);
@@ -216,7 +219,7 @@ namespace reserveOfStudyRoom
             // button16
             // 
             this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button16.Location = new System.Drawing.Point(480, 285);
+            this.button16.Location = new System.Drawing.Point(810, 202);
             this.button16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(39, 49);
@@ -228,7 +231,7 @@ namespace reserveOfStudyRoom
             // button17
             // 
             this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button17.Location = new System.Drawing.Point(422, 285);
+            this.button17.Location = new System.Drawing.Point(752, 202);
             this.button17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(39, 49);
@@ -240,7 +243,7 @@ namespace reserveOfStudyRoom
             // button18
             // 
             this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button18.Location = new System.Drawing.Point(364, 285);
+            this.button18.Location = new System.Drawing.Point(694, 202);
             this.button18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(39, 49);
@@ -252,7 +255,7 @@ namespace reserveOfStudyRoom
             // button19
             // 
             this.button19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button19.Location = new System.Drawing.Point(306, 285);
+            this.button19.Location = new System.Drawing.Point(636, 202);
             this.button19.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(39, 49);
@@ -264,7 +267,7 @@ namespace reserveOfStudyRoom
             // button20
             // 
             this.button20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button20.Location = new System.Drawing.Point(248, 285);
+            this.button20.Location = new System.Drawing.Point(578, 202);
             this.button20.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(39, 49);
@@ -276,7 +279,7 @@ namespace reserveOfStudyRoom
             // button21
             // 
             this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button21.Location = new System.Drawing.Point(192, 285);
+            this.button21.Location = new System.Drawing.Point(522, 202);
             this.button21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(39, 49);
@@ -288,7 +291,7 @@ namespace reserveOfStudyRoom
             // button8
             // 
             this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button8.Location = new System.Drawing.Point(536, 196);
+            this.button8.Location = new System.Drawing.Point(381, 293);
             this.button8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(39, 49);
@@ -300,7 +303,7 @@ namespace reserveOfStudyRoom
             // button9
             // 
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button9.Location = new System.Drawing.Point(480, 196);
+            this.button9.Location = new System.Drawing.Point(325, 293);
             this.button9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(39, 49);
@@ -312,7 +315,7 @@ namespace reserveOfStudyRoom
             // button10
             // 
             this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button10.Location = new System.Drawing.Point(422, 196);
+            this.button10.Location = new System.Drawing.Point(267, 293);
             this.button10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(39, 49);
@@ -324,7 +327,7 @@ namespace reserveOfStudyRoom
             // button11
             // 
             this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button11.Location = new System.Drawing.Point(364, 196);
+            this.button11.Location = new System.Drawing.Point(209, 293);
             this.button11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(39, 49);
@@ -336,7 +339,7 @@ namespace reserveOfStudyRoom
             // button12
             // 
             this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button12.Location = new System.Drawing.Point(306, 196);
+            this.button12.Location = new System.Drawing.Point(151, 293);
             this.button12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(39, 49);
@@ -348,7 +351,7 @@ namespace reserveOfStudyRoom
             // button13
             // 
             this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button13.Location = new System.Drawing.Point(248, 196);
+            this.button13.Location = new System.Drawing.Point(93, 293);
             this.button13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(39, 49);
@@ -360,7 +363,7 @@ namespace reserveOfStudyRoom
             // button14
             // 
             this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button14.Location = new System.Drawing.Point(192, 196);
+            this.button14.Location = new System.Drawing.Point(37, 293);
             this.button14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(39, 49);
@@ -372,7 +375,7 @@ namespace reserveOfStudyRoom
             // button7
             // 
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button7.Location = new System.Drawing.Point(536, 105);
+            this.button7.Location = new System.Drawing.Point(381, 202);
             this.button7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(39, 49);
@@ -384,7 +387,7 @@ namespace reserveOfStudyRoom
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button6.Location = new System.Drawing.Point(480, 105);
+            this.button6.Location = new System.Drawing.Point(325, 202);
             this.button6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(39, 49);
@@ -396,7 +399,7 @@ namespace reserveOfStudyRoom
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button5.Location = new System.Drawing.Point(422, 105);
+            this.button5.Location = new System.Drawing.Point(267, 202);
             this.button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(39, 49);
@@ -408,7 +411,7 @@ namespace reserveOfStudyRoom
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button4.Location = new System.Drawing.Point(364, 105);
+            this.button4.Location = new System.Drawing.Point(209, 202);
             this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(39, 49);
@@ -420,7 +423,7 @@ namespace reserveOfStudyRoom
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button3.Location = new System.Drawing.Point(306, 105);
+            this.button3.Location = new System.Drawing.Point(151, 202);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(39, 49);
@@ -432,7 +435,7 @@ namespace reserveOfStudyRoom
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button2.Location = new System.Drawing.Point(248, 105);
+            this.button2.Location = new System.Drawing.Point(93, 202);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(39, 49);
@@ -444,7 +447,7 @@ namespace reserveOfStudyRoom
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button1.Location = new System.Drawing.Point(192, 105);
+            this.button1.Location = new System.Drawing.Point(37, 202);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(39, 49);
@@ -457,7 +460,7 @@ namespace reserveOfStudyRoom
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label11.Location = new System.Drawing.Point(864, 107);
+            this.label11.Location = new System.Drawing.Point(860, 52);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(0, 31);
             this.label11.TabIndex = 120;
@@ -466,7 +469,7 @@ namespace reserveOfStudyRoom
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label10.Location = new System.Drawing.Point(838, 43);
+            this.label10.Location = new System.Drawing.Point(838, 9);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(72, 25);
             this.label10.TabIndex = 119;
@@ -488,7 +491,7 @@ namespace reserveOfStudyRoom
             // button48
             // 
             this.button48.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button48.Location = new System.Drawing.Point(316, 478);
+            this.button48.Location = new System.Drawing.Point(602, 490);
             this.button48.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button48.Name = "button48";
             this.button48.Size = new System.Drawing.Size(131, 29);
@@ -497,11 +500,41 @@ namespace reserveOfStudyRoom
             this.button48.UseVisualStyleBackColor = true;
             this.button48.Click += new System.EventHandler(this.button48_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(671, 110);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(75, 15);
+            this.label2.TabIndex = 154;
+            this.label2.Text = "제2열람실";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(148, 413);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(45, 15);
+            this.label3.TabIndex = 155;
+            this.label3.Text = "label3";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(633, 413);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(45, 15);
+            this.label4.TabIndex = 156;
+            this.label4.Text = "label4";
+            // 
             // 제1열람실
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(934, 560);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -540,9 +573,8 @@ namespace reserveOfStudyRoom
             this.Controls.Add(this.button47);
             this.Controls.Add(this.button48);
             this.Name = "제1열람실";
-            this.Text = "Form1";
+            this.Text = "열람실";
             this.Load += new System.EventHandler(this.열람실_Load);
-            this.Click += new System.EventHandler(this.button1_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -587,5 +619,8 @@ namespace reserveOfStudyRoom
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button button47;
         private System.Windows.Forms.Button button48;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }

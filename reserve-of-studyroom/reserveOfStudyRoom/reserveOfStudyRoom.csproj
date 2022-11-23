@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DBClass.cs" />
     <Compile Include="열람실선택.cs">
       <SubType>Form</SubType>
     </Compile>

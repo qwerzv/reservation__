@@ -7,12 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Oracle.DataAccess.Client;
 
 namespace reserveOfStudyRoom
 {
     public partial class 제1열람실 : Form
     {
         DateTime dt = DateTime.Now.AddHours(2);
+        OracleDataAdapter DBAdapter;
+        DataSet DS;
+        OracleCommandBuilder myCommandBuilder;
+        DataTable reserveTable;
 
         public 제1열람실()
         {
@@ -23,203 +28,179 @@ namespace reserveOfStudyRoom
         {
             MessageBox.Show("좌석 선택은 최대 1개 입니다.");
         }
+        private void DB_Open()
+        {
+            try
+            {
+                string connectionString = "User Id=moonu; Password=1111; Data Source=(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521)) (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = xe)));";
+                string commandString = "select * from reserver";
+                DBAdapter = new OracleDataAdapter(commandString, connectionString);
+                myCommandBuilder = new OracleCommandBuilder(DBAdapter);
+                DS = new DataSet();
+            }
+            catch (DataException DE)
+            {
+                MessageBox.Show(DE.Message);
+            }
+
+        }
+
+        public Boolean room1click = false;
+
+        public void room1(String text, Button btn)
+        {
+            room1click = true; // 열람실 예약 cs에 열람실 이름 띄어주기
+            label11.Text = text; // 선택한 좌석 출력
+            btn.BackColor = Color.LightBlue; // 버튼 클릭시 배경색깔 변경
+            button47.Enabled = true; //버튼 클릭시 예약하기 버튼 활성화
+        }
+
+        public void room2(String text, Button btn)
+        {
+            label11.Text = text; // 선택한 좌석 출력
+            btn.BackColor = Color.LightBlue; // 버튼 클릭시 배경색깔 변경
+            button47.Enabled = true; //버튼 클릭시 예약하기 버튼 활성화
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            String SQL = "SELECT * FROM ";
-
-            label11.Text = "A1\n";
-            button1.BackColor = Color.LightBlue;
-            button47.Enabled = true; //버튼 활성화
+           
+            room1("A1\n", button1);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            label11.Text = "A2\n";
-            button2.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room1("A2\n", button2);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            label11.Text = "A3\n";
-            button3.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room1("A3\n", button3);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            label11.Text = "A4\n";
-            button4.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room1("A4\n", button4);
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            label11.Text = "A5\n";
-            button5.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room1("A5\n", button5);
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            label11.Text = "A6\n";
-            button6.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room1("A6\n", button6);
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            label11.Text = "A7\n";
-            button7.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room1("A7\n", button7);
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
-            label11.Text = "B1\n";
-            button14.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room1("B1\n", button14);
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-            label11.Text = "B2\n";
-            button13.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room1("B2\n", button13);
         }
 
         private void button12_Click(object sender, EventArgs e)
-        {
-            label11.Text = "B3\n";
-            button12.BackColor = Color.LightBlue;
-            button47.Enabled = true;
-        }
+        { 
+            room1("B3\n", button12); 
+        } 
 
         private void button11_Click(object sender, EventArgs e)
         {
-            label11.Text = "B4\n";
-            button11.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room1("B4\n", button11);
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-            label11.Text = "B5\n";
-            button10.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room1("B5\n", button10);
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            label11.Text = "B6\n";
-            button9.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room1("B6\n", button9);
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            label11.Text = "B7\n";
-            button8.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room1("B7\n", button8);
         }
 
         private void button21_Click(object sender, EventArgs e)
         {
-            label11.Text = "C1\n";
-            button21.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room2("C1\n", button21);
         }
 
         private void button20_Click(object sender, EventArgs e)
         {
-            label11.Text = "C2\n";
-            button20.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room2("C2\n", button20);
         }
 
         private void button19_Click(object sender, EventArgs e)
         {
-            label11.Text = "C3\n";
-            button19.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room2("C3\n", button19);
         }
 
         private void button18_Click(object sender, EventArgs e)
         {
-            label11.Text = "C4\n";
-            button18.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room2("C4\n", button18);
         }
 
         private void button17_Click(object sender, EventArgs e)
         {
-            label11.Text = "C5\n";
-            button17.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room2("C5\n", button17);
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
-            label11.Text = "C6\n";
-            button16.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room2("C6\n", button16);
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-            label11.Text = "C7\n";
-            button15.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room2("C7\n", button15);
         }
 
         private void button28_Click(object sender, EventArgs e)
         {
-            label11.Text = "D1\n";
-            button28.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room2("D1\n", button28);
         }
 
         private void button27_Click(object sender, EventArgs e)
         {
-            label11.Text = "D2\n";
-            button27.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room2("D2\n", button27);
         }
 
         private void button26_Click(object sender, EventArgs e)
         {
-            label11.Text = "D3\n";
-            button26.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room2("D3\n", button26);
         }
 
         private void button25_Click(object sender, EventArgs e)
         {
-            label11.Text = "D4\n";
-            button25.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room2("D4\n", button25);
         }
 
         private void button24_Click(object sender, EventArgs e)
         {
-            label11.Text = "D5\n";
-            button24.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room2("D5\n", button24);
         }
 
         private void button23_Click(object sender, EventArgs e)
         {
-            label11.Text = "D6\n";
-            button23.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room2("D6\n", button23);
         }
 
         private void button22_Click(object sender, EventArgs e)
         {
-            label11.Text = "D7\n";
-            button22.BackColor = Color.LightBlue;
-            button47.Enabled = true;
+            room2("D7\n", button22);
         }
 
         private void button48_Click(object sender, EventArgs e)
@@ -252,7 +233,7 @@ namespace reserveOfStudyRoom
             button26.BackColor = SystemColors.Control;
             button27.BackColor = SystemColors.Control;
             button28.BackColor = SystemColors.Control;
-
+            button47.Enabled = false;
             label11.Text = "";
         }
         private void button47_Click(object sender, EventArgs e)
@@ -261,6 +242,14 @@ namespace reserveOfStudyRoom
             열람실예약 calc = new 열람실예약();
             calc.label13.Text = DateTime.Now.ToString("hh:mm ~ ") + dt.ToString("hh:mm");
             calc.label6.Text = label11.Text;
+            if (room1click)
+            {
+                calc.label1.Text = label1.Text;
+            }
+            else
+            {
+                calc.label1.Text = label2.Text;
+            }
 
             calc.Show();
 
