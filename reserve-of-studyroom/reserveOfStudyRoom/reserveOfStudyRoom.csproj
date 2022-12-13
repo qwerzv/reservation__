@@ -53,17 +53,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DBClass.cs" />
-    <Compile Include="스터디룸.cs">
+    <Compile Include="열람실선택.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="스터디룸.Designer.cs">
-      <DependentUpon>스터디룸.cs</DependentUpon>
+    <Compile Include="열람실선택.Designer.cs">
+      <DependentUpon>열람실선택.cs</DependentUpon>
     </Compile>
-    <Compile Include="스터디룸예약.cs">
+    <Compile Include="제2열람실.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="스터디룸예약.Designer.cs">
-      <DependentUpon>스터디룸예약.cs</DependentUpon>
+    <Compile Include="제2열람실.Designer.cs">
+      <DependentUpon>제2열람실.cs</DependentUpon>
     </Compile>
     <Compile Include="열람실예약.cs">
       <SubType>Form</SubType>
@@ -107,11 +107,8 @@
     <EmbeddedResource Include="insert.resx">
       <DependentUpon>insert.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="스터디룸.resx">
-      <DependentUpon>스터디룸.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="스터디룸예약.resx">
-      <DependentUpon>스터디룸예약.cs</DependentUpon>
+    <EmbeddedResource Include="열람실선택.resx">
+      <DependentUpon>열람실선택.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="제1열람실.resx">
       <DependentUpon>제1열람실.cs</DependentUpon>
