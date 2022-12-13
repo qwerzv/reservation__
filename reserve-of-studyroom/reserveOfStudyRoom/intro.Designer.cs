@@ -80,7 +80,6 @@ namespace reserveOfStudyRoom
             // 
             // readingRoom
             // 
-            this.readingRoom.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.readingRoom.BackColor = System.Drawing.Color.White;
             this.readingRoom.Font = new System.Drawing.Font("굴림", 9F);
             this.readingRoom.ForeColor = System.Drawing.Color.Black;

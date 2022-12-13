@@ -86,7 +86,8 @@ namespace reserveOfStudyRoom
 
         private void studyRoom_Click(object sender, EventArgs e)
         {
-            Environment.Exit(0);
+            스터디룸 calc = new 스터디룸();
+            calc.Show();
         }
 
         private void label1_Click(object sender, EventArgs e)
